@@ -5,7 +5,7 @@ import {Link} from 'react-router-dom';
 export const Header = ({children, ...otherProps}) => (
     <div className="header">
         <Link to="/" className="logo">
-            <p className="header-text">AES</p>
+            <p className="header-text">ABC</p>
         </Link>
 
         <div className="header-sections">
