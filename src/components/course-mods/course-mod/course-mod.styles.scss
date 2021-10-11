@@ -1,0 +1,56 @@
+.course-mod {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 22%;
+  height: 350px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.212);
+  transition: 0.3s;
+  margin-right: 40px;
+  position: relative;
+  overflow: hidden;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.082);
+  }
+
+  .colored-span {
+    width: 100%;
+    height: 80%;
+    background-color: rgb(236, 244, 248);
+    margin-bottom: 5px;
+  }
+
+  .container {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    flex-direction: column;
+
+    .mod-id {
+      display: flex;
+      font-weight: bold;
+      letter-spacing: 0.5rem;
+      font-size: 18px;
+      align-items: center;
+      justify-content: center;
+      text-transform: uppercase;
+      position: absolute;
+    }
+
+    .mod-title {
+      display: flex;
+      border: none;
+      background-color: white;
+      margin-bottom: 2px;
+    }
+
+    .course-detail {
+      margin-top: 100px;
+    }
+  }
+}

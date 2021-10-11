@@ -1,0 +1,20 @@
+.test-item {
+  width: 850px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  background-color: rgb(238, 244, 245);
+  margin: 10px 35px;
+  padding: 30px;
+  height: auto;
+  font-size: 16px;
+  letter-spacing: 3px;
+  text-transform: capitalize;
+  border-left: 4px solid darkcyan;
+
+  .small-edit-button {
+    cursor: pointer;
+    margin-left: -80px;
+  }
+}

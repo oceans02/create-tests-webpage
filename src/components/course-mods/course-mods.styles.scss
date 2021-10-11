@@ -1,0 +1,21 @@
+.course-mods {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: black;
+    margin: 25px auto;
+    padding: 25px;
+  }
+
+  .courses {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+}
